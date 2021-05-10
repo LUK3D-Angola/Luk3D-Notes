@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { useEffect, useState } from "react";
 import './App.css';
-
+// Importing components
+import Header from './components/Header';
+import Body from './components/Body';
+import AddCard from './components/AddCard';
 function App() {
+
+  const [todos,setTodos] = useState([{title:"Teste1"}, {title:"teste2"}, {title:"teste3"},{title:"teste4"}]);
+  const [dialog, setdialog] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-black-500">
+      <Header></Header>
+      <Body setdialog={setdialog} todoCards={todos}>
+      </Body>
+      <AddCard setdialog={setdialog} show={dialog}></AddCard>
     </div>
   );
 }
