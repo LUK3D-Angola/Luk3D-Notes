@@ -2,7 +2,7 @@
 ![ScreenShot 01](/img01.png)
 
 # LUK3D-Notes
-This project was made with Reactjs and Tailwindcss. the main goal was to teste the react framework since we always have used Vuejs on our projects. We intend to continue with the projecto to make it better and it will remain open source.
+This project was made with Reactjs and Tailwindcss. the main goal was to teste the react library since we always have used Vuejs on our projects. We intend to continue with the projecto to make it better and it will remain open source.
 
 ## Available Scripts
 
