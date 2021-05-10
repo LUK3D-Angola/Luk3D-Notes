@@ -30,6 +30,7 @@ Your app is ready to be deployed!
 * Listar as Cards Dinâmicamente
 * Salvar os dados em json no localstorage
 * Eliminar todas as Cards
+* Responsividade
 
 ## Learn More
 
